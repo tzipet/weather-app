@@ -38,8 +38,8 @@ app.get('/about', (req, res) => {
 
 app.get('/help', (req, res) => {
   res.render('help', {
-    title: 'Help page',
-    body: 'This is a simple help page',
+    title: 'Help',
+    body: 'You can type your region, city or zip code in order to get a real time weather forecast along with information about the temperature and humidity',
     name: 'Tzipet'
   })
 })
